@@ -2,10 +2,6 @@
 
 An intelligent data analysis tool powered by Google's Gemini AI that allows you to analyze CSV files using natural language queries. Simply upload your data, ask questions in plain English, and get AI-generated insights with automatic visualizations.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Gemini](https://img.shields.io/badge/Gemini-AI-orange)
-![Gradio](https://img.shields.io/badge/Gradio-UI-red)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ##  Features
 
@@ -34,7 +30,7 @@ An intelligent data analysis tool powered by Google's Gemini AI that allows you 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ai-data-analyst-agent.git
+   git clone https://github.com/Adityasaha25/ai-data-analyst-agent.git
    cd ai-data-analyst-agent
    ```
 
