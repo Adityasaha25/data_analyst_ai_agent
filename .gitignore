@@ -205,3 +205,41 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Added for AI Data Analyst Project ---
+# Environment Files
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# System / OS Files
+.DS_Store
+Thumbs.db
+
+# Cache & Temp Files
+*.cache
+*.temp
+*.tmp
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Data Files (Optional)
+*.csv
+*.xlsx
+*.xls
