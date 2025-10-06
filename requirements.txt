@@ -1,0 +1,6 @@
+google-generativeai
+pandas
+matplotlib
+pillow
+gradio
+jupyter
