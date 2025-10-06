@@ -218,28 +218,58 @@ __pycache__/
 *.pkl
 *.log
 
-# Jupyter Notebook Checkpoints
-.ipynb_checkpoints/
 
-# Virtual Environments
-venv/
+
+
+
+
+
+# Jupyter Notebook Checkpoint
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environments
+.env
+.venv
 env/
-.venv/
+venv/
+ENV/
 
-# System / OS Files
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
+*.lnk
 
-# Cache & Temp Files
-*.cache
-*.temp
-*.tmp
-
-# IDE / Editor
+# IDE
 .vscode/
 .idea/
+*.swp
 
-# Data Files (Optional)
+# Project specific
 *.csv
 *.xlsx
 *.xls
+data/
+uploads/
+temp/
+*.log
+
+# API Keys (IMPORTANT!)
+*api_key*
+*API_KEY*
+.secrets
+secrets.py
+config_local.py
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
